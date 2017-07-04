@@ -534,7 +534,7 @@ public:
         mainDert->setObjectName(QStringLiteral("mainDert"));
         mainDert->setGeometry(QRect(50, 90, 301, 61));
         mainDert->setFont(font);
-        mainDert->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        mainDert->setStyleSheet(QStringLiteral("color:rgb(255, 255, 135)"));
         mainDertTabl = new QTableWidget(centralWidget);
         if (mainDertTabl->columnCount() < 3)
             mainDertTabl->setColumnCount(3);
@@ -601,7 +601,7 @@ public:
         interestCharges->setObjectName(QStringLiteral("interestCharges"));
         interestCharges->setGeometry(QRect(50, 370, 301, 41));
         interestCharges->setFont(font);
-        interestCharges->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        interestCharges->setStyleSheet(QStringLiteral("color:rgb(255, 255, 135)"));
         labelDay = new QLabel(centralWidget);
         labelDay->setObjectName(QStringLiteral("labelDay"));
         labelDay->setGeometry(QRect(560, 170, 200, 20));
@@ -609,7 +609,7 @@ public:
         font3.setFamily(QStringLiteral("Times New Roman"));
         font3.setPointSize(12);
         labelDay->setFont(font3);
-        labelDay->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        labelDay->setStyleSheet(QStringLiteral("color:rgb(255, 255, 135)"));
         labelPercent = new QLabel(centralWidget);
         labelPercent->setObjectName(QStringLiteral("labelPercent"));
         labelPercent->setGeometry(QRect(560, 240, 210, 20));
@@ -619,7 +619,7 @@ public:
         font4.setBold(false);
         font4.setWeight(50);
         labelPercent->setFont(font4);
-        labelPercent->setStyleSheet(QStringLiteral("color: rgb(255, 255, 255);"));
+        labelPercent->setStyleSheet(QStringLiteral("color:rgb(255, 255, 135)"));
         percent = new QDoubleSpinBox(centralWidget);
         percent->setObjectName(QStringLiteral("percent"));
         percent->setGeometry(QRect(560, 270, 200, 30));
@@ -726,7 +726,7 @@ public:
         label->setText(QApplication::translate("MainWindow", "\n"
 "0", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("MainWindow", "\320\232\321\200\320\265\320\264\320\270\321\202\320\275\321\213\320\271 \320\232\320\260\320\273\321\214\320\272\321\203\320\273\321\217\321\202\320\276\321\200", Q_NULLPTR));
-        pushButton_1->setText(QApplication::translate("MainWindow", "\320\220\321\200\320\265\321\204\320\274\320\265\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\271 \320\232\320\260\320\273\321\214\320\272\321\203\320\273\321\217\321\202\320\276\321\200", Q_NULLPTR));
+        pushButton_1->setText(QApplication::translate("MainWindow", "\320\220\321\200\320\270\321\204\320\274\320\265\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\271 \320\232\320\260\320\273\321\214\320\272\321\203\320\273\321\217\321\202\320\276\321\200", Q_NULLPTR));
         push1->setText(QApplication::translate("MainWindow", "1", Q_NULLPTR));
         push2->setText(QApplication::translate("MainWindow", "2", Q_NULLPTR));
         push3->setText(QApplication::translate("MainWindow", "3", Q_NULLPTR));

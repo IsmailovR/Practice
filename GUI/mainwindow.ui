@@ -361,7 +361,7 @@ padding: 0 20px 0 20px;</string>
      <string notr="true">background-color: rgb(254, 254, 190);</string>
     </property>
     <property name="text">
-     <string>Арефметический Калькулятор</string>
+     <string>Арифметический Калькулятор</string>
     </property>
    </widget>
    <widget class="QPushButton" name="push1">
@@ -3062,7 +3062,7 @@ padding: 0 20px 0 20px;</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color:rgb(255, 255, 135)</string>
     </property>
     <property name="text">
      <string>Таблица основного долга</string>
@@ -3300,7 +3300,7 @@ background-color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color:rgb(255, 255, 135)</string>
     </property>
     <property name="text">
      <string>Таблица начисленных процентов</string>
@@ -3322,7 +3322,7 @@ background-color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color:rgb(255, 255, 135)</string>
     </property>
     <property name="text">
      <string>Дата начисления процентов</string>
@@ -3346,7 +3346,7 @@ background-color: rgb(255, 255, 255);</string>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);</string>
+     <string notr="true">color:rgb(255, 255, 135)</string>
     </property>
     <property name="text">
      <string>Процентная ставка (годовых)</string>
