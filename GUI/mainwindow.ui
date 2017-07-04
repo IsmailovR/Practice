@@ -31,7 +31,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">QWidget#centralWidget {
-background-image:url(:/image/7SPBY-hxP6A.jpg);
+background-image:url(:/image/7SPBY-hxP6A.png);
 };</string>
    </property>
    <property name="inputMethodHints">
